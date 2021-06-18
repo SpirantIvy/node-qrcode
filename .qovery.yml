@@ -1,0 +1,11 @@
+---
+application:
+  name: "node-qrcode"
+  project: "qrcode gen"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-node-qrcode"
+  routes:
+  - application_name: "node-qrcode"
+    paths:
+    - "/*"
